@@ -10,13 +10,9 @@ class Dog
   end 
   
   def self.all
-    @@all 
-  end 
-  
-  def self.print_all 
-    @@all.each do |list| 
+     @@all.each do |list| 
       puts "#{list}"
     end
-  end
+  end 
   
 end
