@@ -12,6 +12,11 @@ class Dog
     @@all 
   end 
   
+  def self.print_all 
+    @@all.each do |list| 
+      puts "#{list}"
+    end
+  
   def self.clear_all 
     @@all.clear 
   end 
